@@ -1,0 +1,320 @@
+div.head{
+    position: absolute;
+    width: 1440px;
+    height: 120px;
+    left: calc(50% - 1440px/2);
+    top: 0;
+
+    /* Header Color */
+
+    background: #4C6776;
+    border-radius: 0 0 96px 96px;
+}
+#title{
+    position: absolute;
+    width: 300px;
+    height: 29px;
+    left: calc(50% - 300px/2 + 27px);
+    top: 57px;
+
+    font-family: Raleway, serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 57px;
+    display: flex;
+    align-items: flex-end;
+    text-align: center;
+
+    /* Shadow BG */
+
+    color: #EBEBEB;
+}
+div.col-4{
+    position: absolute;
+    width: 300px;
+    height: 39px;
+    left: 60px;
+    top: 40px;
+    z-index: 2;
+    display: block;
+
+
+}
+#login{
+    position: absolute;
+    width: 250px;
+    height: 29px;
+    right: 50px;
+    top: 45px;
+
+    font-family: Raleway, serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 23px;
+    line-height: 27px;
+    display: flex;
+    align-items: flex-end;
+    text-align: center;
+
+    /* Shadow BG */
+
+    color: #EBEBEB;
+}
+#avatar{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    right: 70px;
+    top: 40px;
+
+}
+/*----------------Report Button -----------------------*/
+div.report{
+
+    position: absolute;
+    width: 385px;
+    height: 145px;
+    left: 72px;
+    top: 197px;
+
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+
+
+    /* Report Color */
+
+    background: #2C42AB;
+    border-radius: 48px;
+}
+div.report:hover{
+    filter: drop-shadow(0px 5px 5px rgba(0, 0, 0, 0.50));
+}
+div.report-placew{
+    position: absolute;
+    left: 0;
+    right: 50%;
+    top: 0;
+    bottom: 0;
+
+    /* Shadow BG */
+
+    background: #EBEBEB;
+    border-radius: 48px;
+}
+#report-icon{
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    left: 52px;
+    top: 27px;
+}
+#report-label{
+    position: absolute;
+    width: 200px;
+    height: 87px;
+    left: 186px;
+    top: 39px;
+
+    font-family: Raleway, serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 29px;
+    line-height: 34px;
+    text-align: center;
+
+    /* Shadow BG */
+
+    color: #EBEBEB;
+
+}
+
+/*----------------ticket Button -----------------------*/
+div.ticket{
+    /* Ticket button */
+
+
+    position: absolute;
+    width: 371px;
+    height: 139px;
+    left: calc(50% - 371px/2 - 0px);
+    top: 197px;
+    background: #EE6570;
+    border-radius: 46px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+
+}
+div.ticket:hover {
+    filter: drop-shadow(0px 5px 5px rgba(0, 0, 0, 0.50));
+}
+div.ticket-placew{
+    position: absolute;
+    left: 0;
+    right: 50%;
+    top: 0;
+    bottom: 0;
+
+    /* Shadow BG */
+
+    background: #EBEBEB;
+    border-radius: 46px;
+}
+#ticket-icon{
+    position: absolute;
+    width: 87px;
+    height: 87px;
+    left: 50px;
+    top: 26px;
+}
+#ticket-label{
+    position: absolute;
+    width: 193px;
+    height: 84px;
+    left: 179px;
+    top: 38px;
+
+    font-family: Raleway, serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 33px;
+    text-align: center;
+
+    /* Shadow BG */
+
+    color: #EBEBEB;
+}
+/*----------------Train Button -----------------------*/
+div.dashboard{
+    position: absolute;
+    width: 371px;
+    height: 139px;
+    right: 86px;
+    top: 197px;
+    background: #050C48;
+    border-radius: 46px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border: none;
+
+}
+div.dashboard:hover{
+    filter: drop-shadow(0px 5px 5px rgba(0, 0, 0, 0.50));
+}
+div.dashboard-place{
+    position: absolute;
+    left: 0;
+    right: 50%;
+    top: 0;
+    bottom: 0;
+    border: none;
+
+    /* Shadow BG */
+
+    background: #EBEBEB;
+    border-radius: 46px;
+}
+#dashboard-icon{
+    position: absolute;
+    width: 87px;
+    height: 87px;
+    left: 50px;
+    top: 26px;
+}
+#dashboard-label{
+    position: absolute;
+    width: 193px;
+    height: 84px;
+    left: 179px;
+    top: 50px;
+
+    font-family: Raleway, serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 27px;
+    line-height: 33px;
+    text-align: center;
+
+    /* Shadow BG */
+
+    color: #EBEBEB;
+}
+
+/*----------------info -----------------------*/
+iframe.info-main{
+    position: absolute;
+    width: 723px;
+    height: 231px;
+    left: 63px;
+    top: calc(50% - 21px/2 + 99px);
+    border: none;
+
+    /* Base Color 2 */
+
+    background: #FC9904;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 58px;
+}
+iframe.info-1{
+    position: absolute;
+    width: 446px;
+    height: 143px;
+    right: 100px;
+    top: calc(50% - 142px/2 + 160px);
+    border: none;
+
+    /* Base Color 2 */
+
+    background: #FC9904;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.25);
+    border-radius: 36px;
+}
+iframe.info-2{
+    position: absolute;
+    width: 446px;
+    height: 143px;
+    right: 100px;
+    top: calc(50% - 143px/2 + 340px);
+    border: none;
+
+    /* Base Color 2 */
+
+    background: #FC9904;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.25);
+    border-radius: 36px;
+}
+input.sign-out{
+    background: #050C48;
+    border: none;
+    font-family: Raleway, serif;
+    font-style: normal;
+    width: 144px;
+    height: 48px;
+    color: #FC9904;
+    font-weight: bold;
+    font-size: 120%;
+    border-radius: 25px;
+    position: absolute;
+    /*top:150%;*/
+    /*left:45%;*/
+    left: 200px;
+    bottom: 10px;
+    top: calc(50% - 143px/2 + 100px);
+
+}
+input.home-nav{
+    background: #050C48;
+    border: none;
+    position: absolute;
+    width: 145px;
+    height: 48px;
+    right: 700px;
+    bottom: 50px;
+    font-family: Raleway, serif;
+    font-style: normal;
+    color: #EBEBEB;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    border-radius: 24px;
+}
+

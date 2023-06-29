@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- custom CSS -->
+    <link href="../assets/css/style-rw.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open Sans">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <title>Train Master | Report Wizard</title>
+</head>
+<body>
+<div class="head">
+    <h2 id="title">Report Wizard</h2>
+    <div class="row no-gutters mt-3 align-items-center">
+        <div class="col-4">
+            <input class="form-control border-secondary rounded-pill pr-5" id="example-search-input2" type="search"
+                   value="I'm Looking for">
+        </div>
+        <div class="col-auto">
+            <button class="btn btn-outline-light text-dark border-0 rounded-pill ml-n5" type="button" >
+                <i class="fa fa-search"></i>
+            </button>
+        </div>
+    </div>
+    <!-- For demo -->
+    <label id="login">Train Master</label>
+    <img src="../assets/ico/user.png" id="avatar" alt="user_avatar">
+</div>
+<div class="ticket" onclick="location.href='ticket-wiz.html';">
+    <div class="ticket-place">
+        <div class="ticket-placew">
+            <img src="../assets/ico/logo-ticket.png" id="ticket-icon" alt="ticket_logo">
+        </div>
+        <label id="ticket-label">Ticket<br>Wizard</label>
+    </div>
+</div>
+<div class="train" onclick="location.href='train-wiz.html';">
+    <div class="train-place">
+        <div class="train-placew">
+            <img src="../assets/ico/logo-train.png" id="train-icon" alt="logo-train">
+        </div>
+        <label id="train-label">Train<br>Wizard</label>
+
+    </div>
+</div>
+<div class="dashboard" onclick="location.href='dashboard.html';">
+    <div class="dashboard-place">
+        <div class="dashboard-placetw">
+            <img src="../assets/ico/logo-dashboard.png" id="dashboard-icon" alt="logo_dashboard">
+        </div>
+        <label id="dashboard-label">Dashboard</label>
+
+    </div>
+</div>
+<iframe class="info-main"></iframe>
+<iframe class="info-1"></iframe>
+<iframe class="info-2"></iframe>
+<input class="sign-out" type="submit" value="Sign Out" style="top: 90%;" formaction="">
+<input class="home-nav" type="submit" value="Home" style="top: 90%;" formaction="">
+</body>
+</html>

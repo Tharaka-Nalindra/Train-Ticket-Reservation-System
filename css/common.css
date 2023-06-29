@@ -1,0 +1,73 @@
+body {
+  font-family: sans-serif;
+}
+.main {
+  background-color: #082268;
+  width: 100%;
+  height: 120px;
+  border-radius: 0px 0px 60px 60px;
+  color: #ebebeb;
+  position: relative;
+}
+.main img {
+  width: 250px;
+  height: 125px;
+  position: absolute;
+  top: 1%;
+  left: 5%;
+}
+.main h1 {
+  float: left;
+  font-size: 220%;
+  position: absolute;
+  top: 17%;
+  left: 39%;
+}
+.main p {
+  float: right;
+  margin-right: 30px;
+  font-size: 20px;
+  margin-top: 30px;
+}
+header h1 {
+  text-align: center;
+  font-size: 220%;
+  color: #082268;
+  margin-top: 15px;
+}
+section {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+section a {
+  color: #707070;
+  font-weight: bold;
+  font-size: 120%;
+  text-decoration: none;
+}
+section p {
+  color: #082268;
+  font-weight: bold;
+  font-size: 120%;
+  margin-top: 10px;
+}
+#hori {
+  background-color: #082268;
+  width: 100%;
+  height: 8px;
+  border-radius: 4px;
+}
+
+.selected-seat {
+  color: white !important;
+  background-color: green !important;
+}
+
+.reserverd {
+  color: white !important;
+  background-color: red !important;
+}
+
+[type="radio"] {
+  visibility: hidden;
+}

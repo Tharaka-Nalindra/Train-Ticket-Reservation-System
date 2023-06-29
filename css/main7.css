@@ -1,0 +1,102 @@
+form p {
+  color: #082268;
+  font-weight: normal;
+  font-size: 120%;
+  line-height: 2;
+  text-align: center;
+}
+.seat {
+  margin-left: 22%;
+}
+.seat,
+.seat td {
+  border: 2px solid white;
+  height: 30px;
+  border-collapse: collapse;
+}
+.seat td {
+  background-color: #082268;
+  font-size: 100%;
+  width: 60px;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+}
+.seat td:first-child {
+  background-color: white;
+  color: #082268;
+}
+.seat tr:nth-child(even) td {
+  background-color: white;
+  height: 2px;
+}
+.forms {
+  float: left;
+}
+.forms td {
+  color: #082268;
+  width: 100px;
+}
+.forms td:first-child {
+  width: 500px;
+  font-weight: bold;
+}
+.forms tr:first-child td {
+  font-weight: normal;
+}
+input[type="text"] {
+  margin-top: 5px;
+  margin-left: 5%;
+  width: 400px;
+  height: 20px;
+  border-radius: 10px;
+  background-color: #ebebeb;
+}
+select {
+  background-color: #fc9904;
+  color: white;
+  font-weight: bold;
+  width: 60px;
+  height: 25px;
+  border: none;
+  border-radius: 30px;
+}
+#price {
+  float: right;
+  width: 300px;
+  height: 100px;
+  position: relative;
+  right: 25%;
+  top: 20px;
+}
+#price p {
+  font-weight: bold;
+  line-height: 0.8;
+  font-size: 150%;
+}
+#finish {
+  clear: both;
+}
+hr {
+  border: none;
+  width: 70%;
+  height: 5px;
+  border-radius: 5px;
+  background-color: #082268;
+  position: absolute;
+  top: 70%;
+  left: 15%;
+}
+input[type="button"] {
+  background-color: #fc9904;
+  border: none;
+  height: 50px;
+  width: 100px;
+  color: #ebebeb;
+  font-weight: bold;
+  font-size: 120%;
+  border-radius: 25px;
+  position: relative;
+  top: 10px;
+  left: 80%;
+}
