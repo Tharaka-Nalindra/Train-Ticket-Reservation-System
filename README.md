@@ -15,19 +15,19 @@ Train Admin Master need to use his provided username and password to login the s
 
 ## Module Descriptions
  
-### Module Name :- Seat Allocation, modification and cancellation (Ujitha Darshana)
+### Seat Allocation, modification and cancellation
 ### Description
   Responsible for All Ticket allocation, cancellation, Seat allocation and modification. Maintain a Ticket booking and Seat related information in the data base.After Customer     book a seat the seat will only reserved him or her. Also If any case he or she can withdraw or modify to book his seat. 
     
-### Module Name :- Train Master and Station Master Module (Thilanka Randula)
+### Train Master and Station Master Module
 ### Description
   The Train Master module is responsible for updating all train details (arrival and departure times), updating emergency train delay and cancellation. The Station Master module   can also collect data previously entered and produce reports per journey on all reserved railway tickets. In this segment, looking for simple train ticket information           management
   
-### Module Name :- Ticket Generation and Payment Module (Fathima Munsira)
+### Ticket Generation and Payment Module
 ### Description
   A passenger filling out a form and booking a ticket.Maintaining all passenger related information in the database. UX-UI for a passenger to complete the form and to pay for     the ticket by debit / credit card(payment methods) . Issuance of tickets and QR code as PDF file to passengers after payment for tickets.
   
-### Module Name :- Train time table and Generate ticket price (Tharaka Nalinda)
+### Train time table and Generate ticket price
 ### Description
  displayed the train schedule. and line description and train departure time and arrival time, starting point, and destination are displayed. It also displays ticket prices according to the train classes He or she wants to travel on. When the system gives the passenger the starting point and the destination and the expected time of the departure, the Train will display the approximate time. Also displays the ticket price according to the train class type.
   
